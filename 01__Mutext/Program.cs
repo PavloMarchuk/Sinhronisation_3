@@ -12,7 +12,6 @@ namespace _01__Mutext
 		static Mutex mutex;
 		static void Main(string[] args)
 			{
-
 			try
 				{
 				mutex = Mutex.OpenExisting("MY_MUTEXT");
